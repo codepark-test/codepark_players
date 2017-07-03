@@ -4,4 +4,5 @@ def play(board, opp_last, piece)
       return [r, c] if board[r][c].nil?
     end
   end
+  return nil
 end
